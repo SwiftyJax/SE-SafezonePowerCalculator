@@ -67,7 +67,7 @@ namespace SE_SafezonePowerCalculator
                     PowerDrawLabel.Text = powerDraw + "MW";
                     break;
             }
-            float hydrogens = MathF.Round(powerDraw / 5f, 2);
+            float hydrogens = MathF.Round(powerDraw / 0.5f, 2);
             float sReactors = MathF.Round(powerDraw / 15f, 2);
             float lReactors = MathF.Round(powerDraw / 300f, 2);
 
