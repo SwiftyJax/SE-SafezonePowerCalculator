@@ -4,3 +4,5 @@ This is a simple calculator i made for calculating the power required for mainta
 It also tells you how much hydrogen engines/reactors you will need to keep it on.
 
 Requires .NET 6.0
+
+Formulas are taken from https://www.spaceengineerswiki.com/Safe_Zone
